@@ -1,8 +1,10 @@
 [
   {
     "name": "bday",
-    "result": "Successfull",
-    "params": ["johny.txt"],
-    "is_action": true
+    "result": "2023-04-01T13:15:23.2537629+03:00",
+    "params": ["main.go"],
+    "is_action": true,
+    "passparams": null,
+    "PassResult": false
   }
 ]
