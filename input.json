@@ -1,0 +1,8 @@
+[
+  {
+    "name": "bday",
+    "result": "Successfull",
+    "params": ["johny.txt"],
+    "is_action": true
+  }
+]
