@@ -1,8 +1,48 @@
 [
   {
+    "name": "create",
+    "result": "",
+    "params": null,
+    "is_action": true,
+    "passparams": null,
+    "PassResult": true
+  },
+  {
     "name": "bday",
-    "result": "2023-04-01T13:15:23.2537629+03:00",
-    "params": ["main.go"],
+    "result": "",
+    "params": null,
+    "is_action": true,
+    "passparams": null,
+    "PassResult": true
+  },
+  {
+    "name": "check file creation",
+    "result": "",
+    "params": ["2039-04-03T11:02:19.4392584+03:00"],
+    "is_action": false,
+    "passparams": null,
+    "PassResult": false
+  },
+  {
+    "name": "create",
+    "result": "",
+    "params": ["later.txt"],
+    "is_action": true,
+    "passparams": null,
+    "PassResult": false
+  },
+  {
+    "name": "create",
+    "result": "Successfull",
+    "params": ["earlier.txt"],
+    "is_action": true,
+    "passparams": null,
+    "PassResult": false
+  },
+  {
+    "name": "create",
+    "result": "Successfull",
+    "params": ["Final.txt"],
     "is_action": true,
     "passparams": null,
     "PassResult": false

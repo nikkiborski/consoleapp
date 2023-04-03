@@ -2,7 +2,6 @@ package cmd
 
 import (
 	"errors"
-	"fmt"
 	"os"
 	"time"
 
@@ -69,7 +68,7 @@ func DoAction(input *Input) {
 			}
 		}
 	default:
-		fmt.Println("Unknown cmd")
+		input.Result="Unknown/unregistered command. Not executed"
 	}
 }
 
